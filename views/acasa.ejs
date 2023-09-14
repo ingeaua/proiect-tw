@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Bună dimi </title>
+    <link rel="icon" type="image/x-icon" href="../public/images/logo-buna-dimi.png">
+    <link href= "../public/assets/home.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92659dd7c5.js" crossorigin="anonymous"></script>
+    <script src="../public/scripts/acasa.js" defer></script>
+    
+</head>
+<body>
+    <nav>
+        <input type = "checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <img id="logo-nav" src="../public/images/logo-buna-dimi.png">
+        <ul>
+            <li><a class="active" href="/acasa">Acasă</a></li>
+            <li><a href="/meniu1">Meniu1</a></li>  
+            <li><a href="/meniu2">Meniu2</a></li> 
+            <li><a href="/despre">Despre noi</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Cariere</a>
+                <div class="dropdown-content">
+                  <a href="#">Barista</a>
+                  <a href="#">Tech Lead</a>
+                  <a href="#">Location Manager</a>
+                </div>
+              </li>
+            <li><a href="/oferte">Oferte</a></li>
+            <li><a href="/oferte2">Oferte2</a></li>
+        </ul>
+    </nav>
+    <section class="branding-gradient">
+        <div class="div-branding">
+            <img id="logo-branding" src="../public/images/logo-buna-dimi.png">
+            <h1 id="text-branding">Cafeneaua Bună Dimi</h1>
+        </div>
+    </section>
+    <article id="povestea-noastra">
+        <div class="poveste-box">
+            <h2 id="titlu-poveste" class="titlu-poveste">Povestea noastră 💚</h2>
+            <p id="text-poveste"> 
+                Cu o idee clară în minte, Alex și Maria au căutat un loc potrivit în orașul lor natal, iar după multe căutări au găsit un mic spațiu în centrul orașului. 
+                Au știut imediat că este locul perfect pentru cafenea lor, și au început să îl transforme într-un spațiu primitor și plin de farmec.
+            </p>
+            <a href="#"><div id="buton-afla-multe">Află mai multe</div></a>
+        </div>
+    </article>
+    <section id="specialitatile-noastre">
+        <h2 id="titlu-specialitati">Specialitățile noastre</h2>
+
+        <div class="linie-specialitati">
+            <div class="coloana">
+                <div class="card">
+                    <img class="imagine-cafeluta" src="../public/images/cappuccino.jpg">
+                    <div class="container">
+                        <h2>Cappuccino</h2>
+                        <p class="text-cafeluta">
+                            Este cafea italiană tradițională, preparată dintr-un shot de espresso și lapte spumat. 
+                            Este servită într-o ceașcă  și are un strat de spumă de lapte pe deasupra.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coloana">
+                <div class="card">
+                    <img class="imagine-cafeluta" src="../public/images/espresso.jpg">
+                    <div class="container">
+                        <h2>Espresso</h2>
+                        <p class="text-cafeluta">
+                            Este o cafea tare și concentrată, preparată prin forțarea apei fierbinți printr-un strat compact de cafea măcinată. 
+                            Este servită într-o ceașcă mică și este baza multor alte băuturi din cafea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="coloana">
+                <div class="card">
+                    <img class="imagine-cafeluta" src="../public/images/americano.jpg">
+                    <div class="container">
+                        <h2>Americano</h2>
+                        <p class="text-cafeluta">
+                            Este preparată prin adăugarea de apă fierbinte la un shot de espresso. 
+                            Servită într-o ceașcă mare, reprezintă o alegere populară pentru cei care doresc o cafea cu gust puternic, dar mai diluat.
+                        </p>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+          <p>&copy; <%= dataAzi %> Bună dimi. All rights reserved.</p>
+          <p>Bulevardul Constantin Brâncoveanu 6, București</p>
+          <div class="iconite">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+    </footer>
+
+    <div id="fundal-popup" class="ascuns fundal-popup"> 
+        <div class="popup" id="popup"> 
+            <div class="container-popup" id="container-popup">
+                <div class="close-btn">&times;</div>
+                <h2>Abonează-te pentru a primi oferte!</h2>
+                <form id="form-popup">
+                    <div class="form-element">
+                        <p>Introduceți-vă email-ul</p>
+                        <input type="email" placeholder="Introduceți email" id="email-user" required autocomplete="off">
+                    </div>
+                    <div class="form-element">
+                        <p>Introduceți-vă nr de telefon</p> 
+                        <input type="text" placeholder="Introduceți telefon" id="telefon-user" required autocomplete="off">
+                    </div>
+                    <div class="form-element">
+                        <p>Introduceți-vă numele</p>    
+                        <input type ="text" placeholder="Introduceți nume" id="nume-user" required autocomplete="off">
+                    </div>
+                    <input type="submit" class="btn" id="buton-submit">
+                </form> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

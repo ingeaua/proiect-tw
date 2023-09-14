@@ -1,0 +1,62 @@
+#branding-gradient {
+    background: rgb(17,30,27);
+    background: linear-gradient(0deg, rgba(17,30,27,1) 0%, rgba(30,59,49,1) 100%);
+    height: calc(100vh - 100px);
+    width: 100vw;
+    object-fit: cover;
+    display: grid;
+    place-items: center;
+
+}
+
+body section div h1 {
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+body section div form div label {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+
+body section div form div input {
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+body section div form button {
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+body section div form button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
+
+#text2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferte | Bună dimi </title>
+    <link rel="icon" type="image/x-icon" href="../public/images/logo-buna-dimi.png">
+    <link rel="stylesheet" href="../public/assets/home.css">
+    <link rel="stylesheet" href="../public/assets/oferte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92659dd7c5.js" crossorigin="anonymous"></script>
+    <script src="../public/scripts/oferte.js" defer></script>
+    
+</head>
+<body>
+    <nav>
+        <input type = "checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <img id="logo-nav" src="../public/images/logo-buna-dimi.png">
+        <ul>
+            <li><a href="/acasa">Acasă</a></li>
+            <li><a href="/meniu1">Meniu1</a></li>
+            <li><a href="/meniu2">Meniu2</a></li>
+            <li><a href="/despre">Despre noi</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Cariere</a>
+                <div class="dropdown-content">
+                  <a href="#">Barista</a>
+                  <a href="#">Tech Lead</a>
+                  <a href="#">Location Manager</a>
+                </div>
+              </li>
+            <li><a href="#" class="active">Oferte</a></li>
+            <li><a href="/oferte2">Oferte2</a></li>
+        </ul>
+    </nav>
+    <section class="branding-gradient">
+        <div class="div-branding">
+            <img id="logo-branding" src="../public/images/logo-buna-dimi.png">
+            <h1 id="text-branding">Cafeneaua Bună Dimi</h1>
+        </div>
+    </section>
+    <article id="joc-dimi"> 
+        <div class="joc-box">
+            <h2 id="titlu-joc" class="titlu-poveste">Joacă și câștigă oferte 💚</h2>
+            <p id="text-joc"> 
+                Câștigând jocul de mai jos veți primi un cod de reducere în funcție de dificultatea aleasă!
+                
+            </p>
+            <p id="text-joc">
+                Scopul jocului este să sortați dreptunghiurile în funcție de înălțime, cel mai înalt aflându-se în partea stângă. 
+            </p>
+            <p id="text-joc">
+                La apăsarea pe un dreptunghi, înălțimea lui se modifică random.
+            </p>
+            <div id="butoane">
+                <button class="buton-joc" id="adauga">Adaugă dreptunghi</button>
+                <button class="buton-joc" id="elimina">Elimină dreptunghi</button>
+                <button class="buton-joc" id="incepe">Începe joc</button>
+                <button class="buton-joc ascuns" id="stop">Stop</button>
+            </div>
+            
+        </div>
+    </article>
+
+    <section id="game-field">
+        <div class="dreptunghi"></div>
+        <div class="dreptunghi"></div>
+        <div class="dreptunghi"></div>
+    </section>
+    
+
+
+    <footer>
+        <div class="container-footer">
+            <p>&copy; <%= dataAzi %> Bună dimi. All rights reserved.</p>
+          <p>Bulevardul Constantin Brâncoveanu 6, București</p>
+          <div class="iconite">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

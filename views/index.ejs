@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Bună dimi </title>
+    <link rel="icon" type="image/x-icon" href="../public/images/logo-buna-dimi.png">
+    <link href= "../public/assets/home.css" rel="stylesheet" type="text/css"/>
+    <link href= "../public/assets/index.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92659dd7c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <input type = "checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <img id="logo-nav" src="../public/images/logo-buna-dimi.png">
+        
+    </nav>
+    <section id="branding-gradient">
+        <h1 id="text2"><%= locals.text %></h1>
+        <div class="popup">
+            <h1>Login</h1>
+            <form action="/login" method="POST">
+                <div id="card">
+                    <label for="username">Username</label>
+                    <input type="username" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>

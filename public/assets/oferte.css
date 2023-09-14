@@ -1,0 +1,95 @@
+#text-joc {
+
+    padding-bottom: 24px;
+    padding-top: 6px;
+    padding-left: 4vw;
+
+}
+
+#game-field {
+
+    background: rgb(17,30,27);
+    background: linear-gradient(0deg, rgba(17,30,27,1) 0%, rgba(30,59,49,1) 100%);
+    height: 900px;
+    width: 100vw;
+
+}
+
+.buton-joc {
+    display: inline-block;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #2780ce;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 900;
+    width: 200px;
+    transition: 0.5s;
+  }
+  
+.buton-joc#adauga {
+    background-color: #5cb85c;
+}
+  
+.buton-joc#elimina {
+    background-color: #d9534f;
+}
+  
+.buton-joc#incepe {
+    background-color: #f0ad4e;
+}
+
+.buton-joc#adauga:hover {
+    background-color: #5cb85cdc;
+}
+  
+.buton-joc#elimina:hover {
+    background-color: #d9544fd5;
+}
+  
+.buton-joc#incepe:hover {
+    background-color: #f0ac4edc;
+}
+
+.buton-joc#stop:hover {
+
+    background-color:#2780cee3
+
+}
+
+#butoane {
+
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} 
+
+.ascuns {
+
+    display: none;
+
+}
+
+#game-field {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.dreptunghi {
+
+    background-color: rgba(78, 219, 78, 0.089);
+    border: 3px solid white;
+    height: 140px;
+    width: 140px;
+    margin-left: 24px;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: 1s;
+
+}
