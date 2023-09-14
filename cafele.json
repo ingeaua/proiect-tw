@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Espresso",
+    "picture_link": "/public/images/1.jpg",
+    "description": "A rich and intense coffee with a strong flavor and a thick crema.",
+    "price": 2.99
+  },
+  {
+    "name": "Cappuccino",
+    "picture_link": "/public/images/2.jpg",
+    "description": "A classic Italian coffee made with equal parts of espresso, steamed milk, and milk foam.",
+    "price": 3.49
+  },
+  {
+    "name": "Latte",
+    "picture_link": "/public/images/3.jpg",
+    "description": "A smooth and creamy coffee made with espresso and steamed milk.",
+    "price": 3.99
+  },
+  {
+    "name": "Mocha",
+    "picture_link": "/public/images/4.jpg",
+    "description": "A delightful blend of espresso, steamed milk, chocolate, and whipped cream.",
+    "price": 4.49
+  },
+  {
+    "name": "Americano",
+    "picture_link": "/public/images/5.png",
+    "description": "A simple yet bold coffee made by diluting espresso with hot water.",
+    "price": 2.79
+  },
+  {
+    "name": "Iced Coffee",
+    "picture_link": "/public/images/6.jpg",
+    "description": "Chilled coffee served over ice, perfect for a refreshing pick-me-up.",
+    "price": 3.29
+  },
+  {
+    "name": "French Press",
+    "picture_link": "/public/images/7.jpg",
+    "description": "A method of brewing coffee that results in a robust and full-bodied flavor.",
+    "price": 4.99
+  },
+  {
+    "name": "Cold Brew",
+    "picture_link": "/public/images/8.jpg",
+    "description": "A smooth and less acidic coffee brewed with cold water over an extended period.",
+    "price": 3.79
+  }
+]
